@@ -25,7 +25,7 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 ## Phase 2 — Pages (one per session, in this order)
 
 ### headers.html — Headers
-- [ ] Every variant from Example `headers` → `partials/top/hdr-XX.html`, each previewed with `data-partial` and a "Usar no site" button.
+- [x] Every variant from Example `headers` → `partials/top/hdr-XX.html`, each previewed with `data-partial` and a "Usar no site" button.
 - UX: Bootstrap example; NN/g (navigation, utility navigation).
 
 ### footers.html — Rodapés

@@ -43,5 +43,13 @@ function setSlot(key, value) {
 window.useTopVariant = (partial) => setSlot(SHOWCASE_TOP_KEY, `top/${partial}`);
 window.useFooterVariant = (partial) => setSlot(SHOWCASE_FOOTER_KEY, `footer/${partial}`);
 
+// Data attribute delegates for gallery variant switcher buttons
+document.addEventListener('click', (e) => {
+  const top = e.target.getAttribute('data-use-top');
+  const footer = e.target.getAttribute('data-use-footer');
+  if (top) window.useTopVariant(top);
+  if (footer) window.useFooterVariant(footer);
+});
+
 loadSlot('slot-top', SHOWCASE_TOP_KEY, DEFAULT_TOP);
 loadSlot('slot-footer', SHOWCASE_FOOTER_KEY, DEFAULT_FOOTER);
