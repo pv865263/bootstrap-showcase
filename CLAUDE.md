@@ -30,7 +30,9 @@ You are an assembler, not an author. Your job is to locate official markup, copy
 
 ## Hard limits
 
-1. **No custom CSS.** No `<style>` blocks, no `custom.css`. Only exception: CSS files shipped with an official example (for example `headers.css`), copied byte-for-byte into `css/examples/`, linked only where needed, and flagged as "overlay CSS" in `BLOCKS.md`.
+1. **No custom CSS.** No `<style>` blocks in any HTML file, no `custom.css`. Only two exceptions. Both live in `css/examples/`, are linked only from the partials or pages that need them, and are listed by file name in the "Overlay CSS" column of `BLOCKS.md` for every block that depends on them:
+   - **(a) Shipped CSS files.** CSS files that an official example ships (for example `headers.css`), copied byte-for-byte.
+   - **(b) Inline example rules.** Rules from the inline `<style>` block of an official example, only when a rule applies to markup you copy into a block. Before writing any file for a block, inspect the example's `<style>` block and list the rules that apply and the ones that do not. Copy the applicable rules verbatim (no edits, no additions) into `css/examples/<example>-inline.css`, one file per example (for example `headers-inline.css`). If it is unclear whether a rule applies, stop and ask.
 2. **Inline `style=""`** only when the source snippet has the identical attribute.
 3. **External fonts:** if an example loads a web font (Google Fonts or similar), omit the font link and note it in `BLOCKS.md`.
 4. **Custom JS:** only `js/site.js`, max 70 lines. Allowed scope, nothing else:
@@ -96,7 +98,8 @@ Allowed UX references: the Bootstrap example itself, Nielsen Norman Group, GOV.U
 2. Build the page.
 3. Audit and report as a checklist:
    - Every block has `block:start` / `block:end`, `src` and `ux`.
-   - No `<style>`, no `data-bs-theme` (except the carousel dark block), no inline `style` that differs from the source.
+   - No `<style>` in any HTML file, no CSS outside `css/examples/`, and every file in `css/examples/` is listed in the "Overlay CSS" column of `BLOCKS.md`.
+   - No `data-bs-theme` (except the carousel dark block), no inline `style` that differs from the source.
    - One `h1`; heading levels never skip.
    - `js/site.js` is 70 lines or fewer.
    - Every asset and partial loads (no 404 in the server log).
