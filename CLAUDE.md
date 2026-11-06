@@ -43,7 +43,7 @@ You are an assembler, not an author. Your job is to locate official markup, copy
    - Theme page: HEX readout of CSS variables and default/custom CSS toggle.
 5. **Official doc snippets** (tooltip and popover init, form validation, live toast and alert triggers) go verbatim into `js/docs-snippets.js`, each with a `// source:` comment. They do not count toward the 70 lines.
 6. **No color modes.** No `data-bs-theme` anywhere. Only exception: the carousel dark variant block, exactly as in the docs.
-7. **Allowed changes to official markup:** text to lorem ipsum, image and media `src` to files in `assets/`, IDs made unique, nav links remapped to showcase pages. Nothing else. No "improvements".
+7. **Allowed changes to official markup:** text to lorem ipsum, image and media `src` to files in `assets/`, IDs made unique, nav links remapped to showcase pages. Nothing else. No "improvements". Shortening or deleting source text is not allowed: replace it with lorem ipsum of similar length.
 8. **Scope:** anything not listed in `PLAN.md` is out of scope. Ask before adding.
 9. **Media in hidden containers does not pause.** Do not add code for it. Document it in `BLOCKS.md` under "Known issues".
 10. **Forbidden skills in this repo:** `theme-factory`, `brand-guidelines`, `canvas-design`, `frontend-design`.
@@ -103,7 +103,8 @@ Allowed UX references: the Bootstrap example itself, Nielsen Norman Group, GOV.U
    - One `h1`; heading levels never skip.
    - `js/site.js` is 70 lines or fewer.
    - Every asset and partial loads (no 404 in the server log).
-   - Run the `design:accessibility-review` skill on the page and list the findings.
+   - Accessibility, static review: report the findings of a manual WCAG 2.2 AA check of the page markup (landmarks, heading order, link and button names, form labels, image alt text, duplicate IDs across the page and its loaded partials, focus order). Do not claim a contrast or screen-reader result you cannot measure.
+   - Accessibility, automated: Pedro runs Lighthouse (Accessibility category) in Chrome DevTools on the served page and pastes the failures. Do not try to run it yourself.
 4. Add the page's rows to `BLOCKS.md` and tick the page in `PLAN.md`.
 5. Commit with message `page: <filename>`.
 6. Stop. One page per session.
