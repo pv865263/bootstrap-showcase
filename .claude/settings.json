@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(yarn:*)",
+      "Bash(pnpm:*)",
+      "Bash(bun:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(python -m pip:*)",
+      "Edit(./ref/**)",
+      "Edit(./theme/**)",
+      "Edit(./assets/img/**)",
+      "Edit(./assets/video/**)",
+      "Edit(./assets/audio/**)",
+      "Edit(./**/*.scss)",
+      "WebSearch"
+    ]
+  }
+}
