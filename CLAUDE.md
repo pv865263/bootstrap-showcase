@@ -84,6 +84,7 @@ Allowed UX references: the Bootstrap example itself, Nielsen Norman Group, GOV.U
 - A partial is self-contained: it includes any SVG symbols it references and, if needed, its own `<link rel="stylesheet" href="css/examples/....css">`.
 - `localStorage` keys: `showcase.top` (default `hdr-01`), `showcase.footer` (default `ftr-01`).
 - Gallery pages show variants with `<div data-partial="top/hdr-03"></div>` plus a button `data-use-top="hdr-03"` or `data-use-footer="ftr-02"` labeled "Usar no site". One source of truth: the partial file.
+- Every gallery preview is a card: section.card.mb-5 > .card-header (badge row) + .card-body (partial) + .card-footer.bg-body ('Usar no site' button).
 - Navbars with `fixed-top` or `fixed-bottom` are never partials. They appear only as full-page layouts in `layouts/`.
 - Header and navbar partials keep the example's link count. Map links to: Início, Layouts, Cards, Componentes, Contato. Footer partials with link columns list all pages, grouped.
 
