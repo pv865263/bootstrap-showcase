@@ -11,4 +11,8 @@
 | HDR-07 | Two-group nav bar | headers.html | ref/examples/headers/index.html | Bootstrap example; NN/g (navigation) | — | Duplicate SVG id when preview + active slot render same variant |
 | HDR-08 | Double header | headers.html | ref/examples/headers/index.html | Bootstrap example; NN/g (navigation) | headers-inline.css | Duplicate SVG id when preview + active slot render same variant |
 | HDR-09 | Stacked icon-nav admin header | headers.html | ref/examples/headers/index.html | Bootstrap example; NN/g (navigation) | headers.css, headers-inline.css | Duplicate SVG id when preview + active slot render same variant |
-| FTR-01 | Simple footer | footers.html | ref/examples/footers/index.html | NN/g (footers) | footers-inline.css | — |
+| FTR-01 | Simple footer | footers.html | ref/examples/footers/index.html | NN/g (footers) | footers-inline.css | Duplicate SVG id when preview + active slot render same variant |
+| FTR-02 | Footer com ícones sociais | footers.html | ref/examples/footers/index.html | Bootstrap example; NN/g (footers) | footers-inline.css | Duplicate SVG id when preview + active slot render same variant |
+| FTR-03 | Footer com nav centralizada | footers.html | ref/examples/footers/index.html | Bootstrap example; NN/g (footers) | — | — |
+| FTR-04 | Footer de 5 colunas com seções | footers.html | ref/examples/footers/index.html | Bootstrap example; NN/g (footers) | footers-inline.css | Duplicate SVG id when preview + active slot render same variant |
+| FTR-05 | Footer com newsletter e barra social | footers.html | ref/examples/footers/index.html | Bootstrap example; NN/g (footers) | footers-inline.css | Duplicate SVG id when preview + active slot render same variant |

@@ -29,7 +29,7 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 - UX: Bootstrap example; NN/g (navigation, utility navigation).
 
 ### footers.html — Rodapés
-- [ ] Every variant from Example `footers` → `partials/footer/ftr-XX.html`, each previewed with a "Usar no site" button.
+- [x] Every variant from Example `footers` → `partials/footer/ftr-XX.html`, each previewed with a "Usar no site" button.
 - UX: Bootstrap example; NN/g (footers).
 
 ### navigation.html — Navegação
