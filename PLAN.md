@@ -33,13 +33,12 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 - UX: Bootstrap example; NN/g (footers).
 
 ### navigation.html — Navegação
-- [ ] Navbars: every static/sticky variant from Example `navbars` and `navbars-offcanvas` → `partials/top/nav-XX.html`, with "Usar no site".
+- [x] Navbars: every static/sticky variant from Example `navbars` and `navbars-offcanvas` → `partials/top/nav-XX.html`, with "Usar no site".
 - [ ] Links to fixed navbar layouts (`layouts/navbar-fixed.html`, `layouts/navbar-bottom.html`, `layouts/navbar-static.html`).
+- [ ] Link to full-page layout `layouts/sidebars.html`.
 - [ ] Navs & tabs (Docs): base nav, horizontal alignment, vertical, tabs, pills, underline, fill and justify, with dropdowns, tab panes (JS).
 - [ ] Dropdowns (Docs): single, split, sizing, directions (centered, dropup, dropend, dropstart), active/disabled items, alignment, responsive alignment, headers/dividers/text/forms, offset, auto close. Exclude "dark dropdowns".
-- [ ] Dropdowns (Example `dropdowns`): every variant.
 - [ ] Offcanvas (Docs): placements, body scrolling, backdrop options, responsive.
-- [ ] Sidebars (Example `sidebars`): every variant.
 - [ ] Breadcrumbs (Docs dividers + Example `breadcrumbs`).
 - [ ] Pagination (Docs): working with icons, disabled/active, sizing, alignment.
 - UX: NN/g (navigation, tabs, breadcrumbs, pagination, mega/drop-down menus).
@@ -62,6 +61,7 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 
 ### layouts.html — Layouts
 - [ ] Gallery of full-page templates. Each template is a standalone file in `layouts/` (no slots), copied from its example: `album`, `pricing`, `product`, `cover`, `blog`, `dashboard`, `sign-in`, `checkout`, `sticky-footer`, `sticky-footer-navbar`, `carousel`, `navbar-static`, `navbar-fixed`, `navbar-bottom`.
+- [ ] `layouts/sidebars.html`: sidebars example as a full page, `sidebars.css` byte-for-byte. The `[data-bs-theme="dark"]` selector goes to Known issues.
 - [ ] Grid compositions from Example `grid`: single column, sidebar, 2/3 + 1/3, three columns, magazine grid, nesting.
 - UX: Müller-Brockmann (grid systems), NN/g (layout, visual hierarchy).
 
