@@ -36,7 +36,8 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 - [x] Navbars: every static/sticky variant from Example `navbars` and `navbars-offcanvas` → `partials/top/nav-XX.html`, with "Usar no site".
 - [ ] Links to fixed navbar layouts (`layouts/navbar-fixed.html`, `layouts/navbar-bottom.html`, `layouts/navbar-static.html`).
 - [ ] Link to full-page layout `layouts/sidebars.html`.
-- [ ] Navs & tabs (Docs): base nav, horizontal alignment, vertical, tabs, pills, underline, fill and justify, with dropdowns, tab panes (JS).
+- [x] Navs & tabs (Docs): base nav, horizontal alignment, vertical, tabs, pills, underline, fill and justify, with dropdowns, tab panes (JS).
+- NAVX-01..63 are inline in navigation.html, wrapper without card-footer and without the "Usar no site" button, because they are not header/footer slot candidates.
 - [ ] Dropdowns (Docs): single, split, sizing, directions (centered, dropup, dropend, dropstart), active/disabled items, alignment, responsive alignment, headers/dividers/text/forms, offset, auto close. Exclude "dark dropdowns".
 - [ ] Offcanvas (Docs): placements, body scrolling, backdrop options, responsive.
 - [ ] Breadcrumbs (Docs dividers + Example `breadcrumbs`).

@@ -32,3 +32,19 @@
 | NAV-14 | Dark offcanvas | navigation.html | ref/examples/navbars-offcanvas/index.html | Bootstrap example; NN/g (navigation) | — | Duplicate collapse/offcanvas id when preview + live slot render the same variant; the preview toggler then targets the live copy; Heading order: h5 follows h1 (official markup, Lighthouse heading-order) |
 | NAV-15 | Light offcanvas | navigation.html | ref/examples/navbars-offcanvas/index.html | Bootstrap example; NN/g (navigation) | — | Duplicate collapse/offcanvas id when preview + live slot render the same variant; the preview toggler then targets the live copy; Heading order: h5 follows h1 (official markup, Lighthouse heading-order) |
 | NAV-16 | Responsive offcanvas | navigation.html | ref/examples/navbars-offcanvas/index.html | Bootstrap example; NN/g (navigation) | — | Duplicate collapse/offcanvas id when preview + live slot render the same variant; the preview toggler then targets the live copy; Heading order: h5 follows h1 (official markup, Lighthouse heading-order) |
+| NAVX-01 | Base nav | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:20-33 | NN/g Navigation | none | — |
+| NAVX-02 | Base nav in nav element | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:37-42 | NN/g Navigation | none | <nav> landmark without accessible name; present in the official markup (navs-tabs.mdx); not changed. |
+| NAVX-03 | Horizontal: center | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:54-67 | NN/g Navigation | none | — |
+| NAVX-04 | Horizontal: end | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:71-84 | NN/g Navigation | none | — |
+| NAVX-05 | Vertical | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:90-103 | NN/g Navigation | none | — |
+| NAVX-06 | Vertical in nav element | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:107-112 | NN/g Navigation | none | <nav> landmark without accessible name; present in the official markup (navs-tabs.mdx); not changed. |
+| NAVX-07 | Tabs | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:118-131 | NN/g Tabs | none | — |
+| NAVX-08 | Pills | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:137-150 | NN/g Navigation | none | — |
+| NAVX-09 | Underline | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:156-169 | NN/g Navigation | none | — |
+| NAVX-10 | Fill | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:175-188 | NN/g Navigation | none | — |
+| NAVX-11 | Fill in nav element | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:192-197 | NN/g Navigation | none | <nav> landmark without accessible name; present in the official markup (navs-tabs.mdx); not changed. |
+| NAVX-12 | Justified | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:201-214 | NN/g Navigation | none | — |
+| NAVX-13 | Justified in nav element | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:218-223 | NN/g Navigation | none | <nav> landmark without accessible name; present in the official markup (navs-tabs.mdx); not changed. |
+| NAVX-14 | Tabs with dropdown | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:248-268 | NN/g Navigation | none | Dropdown toggle and items use href="#" (official markup; no target pages) |
+| NAVX-15 | Pills with dropdown | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:272-292 | NN/g Navigation | none | Dropdown toggle and items use href="#" (official markup; no target pages) |
+| NAVX-16 | Tabs with tab panes | navigation.html | ref/src/site/src/content/docs/components/navs-tabs.mdx:328-357 | NN/g Tabs | none | — |
