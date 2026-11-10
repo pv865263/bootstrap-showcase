@@ -74,3 +74,24 @@
 | NAVX-40 | Form dropdown | navigation.html | ref/src/site/src/content/docs/components/dropdowns.mdx:827-850 | NN/g Navigation | none | Form has no action, so submit reloads the page (official markup, not changed) |
 | NAVX-41 | Offset and reference | navigation.html | ref/src/site/src/content/docs/components/dropdowns.mdx:856-880 | NN/g Navigation | none | Dropdown items use href="#" (official markup; no target pages) |
 | NAVX-42 | Auto-close | navigation.html | ref/src/site/src/content/docs/components/dropdowns.mdx:886-928 | NN/g Navigation | none | — |
+| NAVX-43 | Offcanvas top | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:186-196 | NN/g Navigation | none | — |
+| NAVX-44 | Offcanvas right | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:198-208 | NN/g Navigation | none | — |
+| NAVX-45 | Offcanvas bottom | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:210-220 | NN/g Navigation | none | — |
+| NAVX-46 | Offcanvas with body scrolling | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:78-88 | NN/g Navigation | none | — |
+| NAVX-47 | Backdrop with scrolling | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:94-104 | NN/g Navigation | none | — |
+| NAVX-48 | Static backdrop | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:110-124 | NN/g Navigation | none | — |
+| NAVX-49 | Responsive offcanvas | navigation.html | ref/src/site/src/content/docs/components/offcanvas.mdx:161-173 | NN/g Navigation | none | — |
+| NAVX-50 | Breadcrumb basic divider | navigation.html | ref/src/site/src/content/docs/components/breadcrumb.mdx:36-41 | NN/g Navigation | none | — |
+| NAVX-51 | Breadcrumb SVG divider | navigation.html | ref/src/site/src/content/docs/components/breadcrumb.mdx:55-60 | NN/g Navigation | none | — |
+| NAVX-52 | Breadcrumb no divider | navigation.html | ref/src/site/src/content/docs/components/breadcrumb.mdx:68-73 | NN/g Navigation | none | — |
+| NAVX-53 | Breadcrumb with background | navigation.html | ref/examples/breadcrumbs/index.html:199-207 | NN/g Navigation | none | Default link color (#0D6EFD) on .bg-body-tertiary (#F8F9FA) is below 4.5:1 (Lighthouse color-contrast); present in the official markup; not changed. |
+| NAVX-54 | Breadcrumb with icon | navigation.html | ref/examples/breadcrumbs/index.html:209-230 | NN/g Navigation | navigation-inline.css | Hosts the house-door-fill sprite used by NAVX-54, 55 and 56 (placed before this block's markers) |
+| NAVX-55 | Breadcrumb chevron | navigation.html | ref/examples/breadcrumbs/index.html:232-255 | NN/g Navigation | navigation-inline.css, breadcrumbs.css | Icon uses the house-door-fill sprite from NAVX-54; copied alone, the icon does not render |
+| NAVX-56 | Breadcrumb custom | navigation.html | ref/examples/breadcrumbs/index.html:257-283 | NN/g Navigation | navigation-inline.css, breadcrumbs.css | Icon uses the house-door-fill sprite from NAVX-54; copied alone, the icon does not render |
+| NAVX-57 | Basic pagination | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:27-43 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-58 | Active item | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:49-59 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-59 | Disabled item | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:73-87 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-60 | Large | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:101-109 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-61 | Small | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:111-119 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-62 | Centered | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:125-137 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |
+| NAVX-63 | End-aligned | navigation.html | ref/src/site/src/content/docs/components/pagination.mdx:141-153 | NN/g Navigation | none | Pagination links use href="#" (official markup; no target pages) |

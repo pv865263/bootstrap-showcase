@@ -7,6 +7,8 @@
     <title>Navegação — Bootstrap Showcase</title>
     <link id="css-default" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link id="css-custom" href="theme/bootstrap.min.css" rel="stylesheet" disabled>
+    <link rel="stylesheet" href="css/examples/breadcrumbs.css">
+    <link rel="stylesheet" href="css/examples/navigation-inline.css">
   </head>
   <body>
     <div id="slot-top"></div>
@@ -84,6 +86,27 @@
           <li><a href="#navx-40">NAVX-40 — Form dropdown</a></li>
           <li><a href="#navx-41">NAVX-41 — Offset and reference</a></li>
           <li><a href="#navx-42">NAVX-42 — Auto-close</a></li>
+          <li><a href="#navx-43">NAVX-43 — Offcanvas top</a></li>
+          <li><a href="#navx-44">NAVX-44 — Offcanvas right</a></li>
+          <li><a href="#navx-45">NAVX-45 — Offcanvas bottom</a></li>
+          <li><a href="#navx-46">NAVX-46 — Offcanvas with body scrolling</a></li>
+          <li><a href="#navx-47">NAVX-47 — Backdrop with scrolling</a></li>
+          <li><a href="#navx-48">NAVX-48 — Static backdrop</a></li>
+          <li><a href="#navx-49">NAVX-49 — Responsive offcanvas</a></li>
+          <li><a href="#navx-50">NAVX-50 — Breadcrumb basic divider</a></li>
+          <li><a href="#navx-51">NAVX-51 — Breadcrumb SVG divider</a></li>
+          <li><a href="#navx-52">NAVX-52 — Breadcrumb no divider</a></li>
+          <li><a href="#navx-53">NAVX-53 — Breadcrumb with background</a></li>
+          <li><a href="#navx-54">NAVX-54 — Breadcrumb with icon</a></li>
+          <li><a href="#navx-55">NAVX-55 — Breadcrumb chevron</a></li>
+          <li><a href="#navx-56">NAVX-56 — Breadcrumb custom</a></li>
+          <li><a href="#navx-57">NAVX-57 — Basic pagination</a></li>
+          <li><a href="#navx-58">NAVX-58 — Active item</a></li>
+          <li><a href="#navx-59">NAVX-59 — Disabled item</a></li>
+          <li><a href="#navx-60">NAVX-60 — Large</a></li>
+          <li><a href="#navx-61">NAVX-61 — Small</a></li>
+          <li><a href="#navx-62">NAVX-62 — Centered</a></li>
+          <li><a href="#navx-63">NAVX-63 — End-aligned</a></li>
         </ul>
       </nav>
 
@@ -1572,6 +1595,533 @@
             </ul>
           </div>
           <!-- block:end NAVX-42 -->
+        </div>
+      </section>
+
+      <!-- NAVX-43 -->
+      <section id="navx-43" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-43</span>
+          <small class="text-body-secondary">Offcanvas top</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-43 | name: Offcanvas top | src: ref/src/site/src/content/docs/components/offcanvas.mdx:186-196 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Alternar offcanvas superior</button>
+
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas superior</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+            </div>
+          </div>
+          <!-- block:end NAVX-43 -->
+        </div>
+      </section>
+
+      <!-- NAVX-44 -->
+      <section id="navx-44" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-44</span>
+          <small class="text-body-secondary">Offcanvas right</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-44 | name: Offcanvas right | src: ref/src/site/src/content/docs/components/offcanvas.mdx:198-208 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Alternar offcanvas à direita</button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas à direita</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+            </div>
+          </div>
+          <!-- block:end NAVX-44 -->
+        </div>
+      </section>
+
+      <!-- NAVX-45 -->
+      <section id="navx-45" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-45</span>
+          <small class="text-body-secondary">Offcanvas bottom</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-45 | name: Offcanvas bottom | src: ref/src/site/src/content/docs/components/offcanvas.mdx:210-220 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Alternar offcanvas inferior</button>
+
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas inferior</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body small">
+              ...
+            </div>
+          </div>
+          <!-- block:end NAVX-45 -->
+        </div>
+      </section>
+
+      <!-- NAVX-46 -->
+      <section id="navx-46" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-46</span>
+          <small class="text-body-secondary">Offcanvas with body scrolling</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-46 | name: Offcanvas with body scrolling | src: ref/src/site/src/content/docs/components/offcanvas.mdx:78-88 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Ativar rolagem do corpo</button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas com rolagem do corpo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+          <!-- block:end NAVX-46 -->
+        </div>
+      </section>
+
+      <!-- NAVX-47 -->
+      <section id="navx-47" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-47</span>
+          <small class="text-body-secondary">Backdrop with scrolling</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-47 | name: Backdrop with scrolling | src: ref/src/site/src/content/docs/components/offcanvas.mdx:94-104 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Ativar rolagem e fundo</button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Fundo com rolagem</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+          <!-- block:end NAVX-47 -->
+        </div>
+      </section>
+
+      <!-- NAVX-48 -->
+      <section id="navx-48" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-48</span>
+          <small class="text-body-secondary">Static backdrop</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-48 | name: Static backdrop | src: ref/src/site/src/content/docs/components/offcanvas.mdx:110-124 | ux: NN/g Navigation -->
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Alternar offcanvas estático</button>
+
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas estático</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.
+              </div>
+            </div>
+          </div>
+          <!-- block:end NAVX-48 -->
+        </div>
+      </section>
+
+      <!-- NAVX-49 -->
+      <section id="navx-49" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-49</span>
+          <small class="text-body-secondary">Responsive offcanvas</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-49 | name: Responsive offcanvas | src: ref/src/site/src/content/docs/components/offcanvas.mdx:161-173 | ux: NN/g Navigation -->
+          <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Alternar offcanvas</button>
+
+          <div class="alert alert-info d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</div>
+
+          <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Offcanvas responsivo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Fechar"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p class="mb-0">Lorem ipsum dolor sit amet <code>.offcanvas-lg</code>.</p>
+            </div>
+          </div>
+          <!-- block:end NAVX-49 -->
+        </div>
+      </section>
+
+      <!-- NAVX-50 -->
+      <section id="navx-50" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-50</span>
+          <small class="text-body-secondary">Breadcrumb basic divider</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-50 | name: Breadcrumb basic divider | src: ref/src/site/src/content/docs/components/breadcrumb.mdx:36-41 | ux: NN/g Navigation -->
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="Trilha de navegação">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+            </ol>
+          </nav>
+          <!-- block:end NAVX-50 -->
+        </div>
+      </section>
+
+      <!-- NAVX-51 -->
+      <section id="navx-51" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-51</span>
+          <small class="text-body-secondary">Breadcrumb SVG divider</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-51 | name: Breadcrumb SVG divider | src: ref/src/site/src/content/docs/components/breadcrumb.mdx:55-60 | ux: NN/g Navigation -->
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="Trilha de navegação">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+            </ol>
+          </nav>
+          <!-- block:end NAVX-51 -->
+        </div>
+      </section>
+
+      <!-- NAVX-52 -->
+      <section id="navx-52" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-52</span>
+          <small class="text-body-secondary">Breadcrumb no divider</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-52 | name: Breadcrumb no divider | src: ref/src/site/src/content/docs/components/breadcrumb.mdx:68-73 | ux: NN/g Navigation -->
+          <nav style="--bs-breadcrumb-divider: '';" aria-label="Trilha de navegação">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+            </ol>
+          </nav>
+          <!-- block:end NAVX-52 -->
+        </div>
+      </section>
+
+      <!-- NAVX-53 -->
+      <section id="navx-53" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-53</span>
+          <small class="text-body-secondary">Breadcrumb with background</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-53 | name: Breadcrumb with background | src: ref/examples/breadcrumbs/index.html:199-207 | ux: NN/g Navigation -->
+          <div class="container my-5">
+            <nav aria-label="Trilha de navegação">
+              <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
+                <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                <li class="breadcrumb-item"><a href="headers.html">Headers</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- block:end NAVX-53 -->
+        </div>
+      </section>
+
+      <!-- NAVX-54 -->
+      <section id="navx-54" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-54</span>
+          <small class="text-body-secondary">Breadcrumb with icon</small>
+        </div>
+        <div class="card-body">
+          <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+            <symbol id="house-door-fill" viewBox="0 0 16 16">
+              <path
+                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+              ></path>
+            </symbol>
+          </svg>
+          <!-- block:start NAVX-54 | name: Breadcrumb with icon | src: ref/examples/breadcrumbs/index.html:209-230 | ux: NN/g Navigation -->
+          <div class="container my-5">
+            <nav aria-label="Trilha de navegação">
+              <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
+                <li class="breadcrumb-item">
+                  <a class="link-body-emphasis" href="index.html">
+                    <svg class="bi" width="16" height="16" aria-hidden="true">
+                      <use xlink:href="#house-door-fill"></use>
+                    </svg>
+                    <span class="visually-hidden">Início</span>
+                  </a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a
+                    class="link-body-emphasis fw-semibold text-decoration-none"
+                    href="footers.html"
+                    >Rodapés</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- block:end NAVX-54 -->
+        </div>
+      </section>
+
+      <!-- NAVX-55 -->
+      <section id="navx-55" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-55</span>
+          <small class="text-body-secondary">Breadcrumb chevron</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-55 | name: Breadcrumb chevron | src: ref/examples/breadcrumbs/index.html:232-255 | ux: NN/g Navigation -->
+          <div class="container my-5">
+            <nav aria-label="Trilha de navegação">
+              <ol
+                class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3"
+              >
+                <li class="breadcrumb-item">
+                  <a class="link-body-emphasis" href="index.html">
+                    <svg class="bi" width="16" height="16" aria-hidden="true">
+                      <use xlink:href="#house-door-fill"></use>
+                    </svg>
+                    <span class="visually-hidden">Início</span>
+                  </a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a
+                    class="link-body-emphasis fw-semibold text-decoration-none"
+                    href="footers.html"
+                    >Rodapés</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- block:end NAVX-55 -->
+        </div>
+      </section>
+
+      <!-- NAVX-56 -->
+      <section id="navx-56" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-56</span>
+          <small class="text-body-secondary">Breadcrumb custom</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-56 | name: Breadcrumb custom | src: ref/examples/breadcrumbs/index.html:257-283 | ux: NN/g Navigation -->
+          <div class="container my-5">
+            <nav aria-label="Trilha de navegação">
+              <ol
+                class="breadcrumb breadcrumb-custom overflow-hidden text-center bg-body-tertiary border rounded-3"
+              >
+                <li class="breadcrumb-item">
+                  <a
+                    class="link-body-emphasis fw-semibold text-decoration-none"
+                    href="index.html"
+                  >
+                    <svg class="bi" width="16" height="16" aria-hidden="true">
+                      <use xlink:href="#house-door-fill"></use>
+                    </svg>
+                    Início
+                  </a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a
+                    class="link-body-emphasis fw-semibold text-decoration-none"
+                    href="footers.html"
+                    >Rodapés</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Navegação</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- block:end NAVX-56 -->
+        </div>
+      </section>
+
+      <!-- NAVX-57 -->
+      <section id="navx-57" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-57</span>
+          <small class="text-body-secondary">Basic pagination</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-57 | name: Basic pagination | src: ref/src/site/src/content/docs/components/pagination.mdx:27-43 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Anterior">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Próxima">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-57 -->
+        </div>
+      </section>
+
+      <!-- NAVX-58 -->
+      <section id="navx-58" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-58</span>
+          <small class="text-body-secondary">Active item</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-58 | name: Active item | src: ref/src/site/src/content/docs/components/pagination.mdx:49-59 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination">
+              <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#" aria-current="page">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-58 -->
+        </div>
+      </section>
+
+      <!-- NAVX-59 -->
+      <section id="navx-59" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-59</span>
+          <small class="text-body-secondary">Disabled item</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-59 | name: Disabled item | src: ref/src/site/src/content/docs/components/pagination.mdx:73-87 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#" aria-current="page">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Próxima</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-59 -->
+        </div>
+      </section>
+
+      <!-- NAVX-60 -->
+      <section id="navx-60" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-60</span>
+          <small class="text-body-secondary">Large</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-60 | name: Large | src: ref/src/site/src/content/docs/components/pagination.mdx:101-109 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination pagination-lg">
+              <li class="page-item active" >
+                <a class="page-link" aria-current="page">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-60 -->
+        </div>
+      </section>
+
+      <!-- NAVX-61 -->
+      <section id="navx-61" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-61</span>
+          <small class="text-body-secondary">Small</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-61 | name: Small | src: ref/src/site/src/content/docs/components/pagination.mdx:111-119 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination pagination-sm">
+              <li class="page-item active">
+                <a class="page-link" aria-current="page">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-61 -->
+        </div>
+      </section>
+
+      <!-- NAVX-62 -->
+      <section id="navx-62" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-62</span>
+          <small class="text-body-secondary">Centered</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-62 | name: Centered | src: ref/src/site/src/content/docs/components/pagination.mdx:125-137 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Próxima</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-62 -->
+        </div>
+      </section>
+
+      <!-- NAVX-63 -->
+      <section id="navx-63" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-63</span>
+          <small class="text-body-secondary">End-aligned</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-63 | name: End-aligned | src: ref/src/site/src/content/docs/components/pagination.mdx:141-153 | ux: NN/g Navigation -->
+          <nav aria-label="Navegação de páginas">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Próxima</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- block:end NAVX-63 -->
         </div>
       </section>
     </main>

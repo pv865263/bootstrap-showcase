@@ -40,9 +40,9 @@ Closed inventory. Anything not listed here is out of scope (see `CLAUDE.md`).
 - NAVX-01..63 are inline in navigation.html, wrapper without card-footer and without the "Usar no site" button, because they are not header/footer slot candidates.
 - NAVX-29..31 and NAVX-36..39 are standalone .dropdown-menu blocks: their root gets d-block position-static (as in ref/examples/dropdowns) so they render outside the docs-only .bd-example wrapper.
 - [x] Dropdowns (Docs): single, split, sizing, directions (centered, dropup, dropend, dropstart), active/disabled items, alignment, responsive alignment, headers/dividers/text/forms, offset, auto close. Exclude "dark dropdowns".
-- [ ] Offcanvas (Docs): placements, body scrolling, backdrop options, responsive.
-- [ ] Breadcrumbs (Docs dividers + Example `breadcrumbs`).
-- [ ] Pagination (Docs): working with icons, disabled/active, sizing, alignment.
+- [x] Offcanvas (Docs): placements, body scrolling, backdrop options, responsive.
+- [x] Breadcrumbs (Docs dividers + Example `breadcrumbs`).
+- [x] Pagination (Docs): working with icons, disabled/active, sizing, alignment.
 - UX: NN/g (navigation, tabs, breadcrumbs, pagination, mega/drop-down menus).
 
 ### index.html — Início
