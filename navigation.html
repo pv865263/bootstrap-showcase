@@ -58,6 +58,32 @@
           <li><a href="#navx-14">NAVX-14 — Tabs with dropdown</a></li>
           <li><a href="#navx-15">NAVX-15 — Pills with dropdown</a></li>
           <li><a href="#navx-16">NAVX-16 — Tabs with tab panes</a></li>
+          <li><a href="#navx-17">NAVX-17 — Button dropdown</a></li>
+          <li><a href="#navx-18">NAVX-18 — Link dropdown</a></li>
+          <li><a href="#navx-19">NAVX-19 — Button group colors</a></li>
+          <li><a href="#navx-20">NAVX-20 — Split button colors</a></li>
+          <li><a href="#navx-21">NAVX-21 — Large sizes</a></li>
+          <li><a href="#navx-22">NAVX-22 — Small sizes</a></li>
+          <li><a href="#navx-23">NAVX-23 — Centered dropdown</a></li>
+          <li><a href="#navx-24">NAVX-24 — Dropup</a></li>
+          <li><a href="#navx-25">NAVX-25 — Centered dropup</a></li>
+          <li><a href="#navx-26">NAVX-26 — Dropend</a></li>
+          <li><a href="#navx-27">NAVX-27 — Dropstart</a></li>
+          <li><a href="#navx-28">NAVX-28 — Button items</a></li>
+          <li><a href="#navx-29">NAVX-29 — Item text</a></li>
+          <li><a href="#navx-30">NAVX-30 — Active item</a></li>
+          <li><a href="#navx-31">NAVX-31 — Disabled item</a></li>
+          <li><a href="#navx-32">NAVX-32 — Right-aligned menu</a></li>
+          <li><a href="#navx-33">NAVX-33 — Right at lg, left below</a></li>
+          <li><a href="#navx-34">NAVX-34 — Left at lg, right below</a></li>
+          <li><a href="#navx-35">NAVX-35 — Placement and alignment</a></li>
+          <li><a href="#navx-36">NAVX-36 — Header</a></li>
+          <li><a href="#navx-37">NAVX-37 — Divider</a></li>
+          <li><a href="#navx-38">NAVX-38 — Text content</a></li>
+          <li><a href="#navx-39">NAVX-39 — Form in menu</a></li>
+          <li><a href="#navx-40">NAVX-40 — Form dropdown</a></li>
+          <li><a href="#navx-41">NAVX-41 — Offset and reference</a></li>
+          <li><a href="#navx-42">NAVX-42 — Auto-close</a></li>
         </ul>
       </nav>
 
@@ -663,6 +689,889 @@
             </div>
           </div>
           <!-- block:end NAVX-16 -->
+        </div>
+      </section>
+
+      <!-- NAVX-17 -->
+      <section id="navx-17" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-17</span>
+          <small class="text-body-secondary">Button dropdown</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-17 | name: Button dropdown | src: ref/src/site/src/content/docs/components/dropdowns.mdx:29-38 | ux: NN/g Navigation -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Botão suspenso
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-17 -->
+        </div>
+      </section>
+
+      <!-- NAVX-18 -->
+      <section id="navx-18" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-18</span>
+          <small class="text-body-secondary">Link dropdown</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-18 | name: Link dropdown | src: ref/src/site/src/content/docs/components/dropdowns.mdx:42-52 | ux: NN/g Navigation -->
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link suspenso
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-18 -->
+        </div>
+      </section>
+
+      <!-- NAVX-19 -->
+      <section id="navx-19" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-19</span>
+          <small class="text-body-secondary">Button group colors</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-19 | name: Button group colors | src: ref/src/site/src/content/docs/components/dropdowns.mdx:56-115 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Primário</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Secundário</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Sucesso</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Informação</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Alerta</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Perigo</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-19 -->
+        </div>
+      </section>
+
+      <!-- NAVX-20 -->
+      <section id="navx-20" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-20</span>
+          <small class="text-body-secondary">Split button colors</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-20 | name: Split button colors | src: ref/src/site/src/content/docs/components/dropdowns.mdx:139-216 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Primário</button>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary">Secundário</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-success">Sucesso</button>
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info">Informação</button>
+            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning">Alerta</button>
+            <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger">Perigo</button>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-20 -->
+        </div>
+      </section>
+
+      <!-- NAVX-21 -->
+      <section id="navx-21" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-21</span>
+          <small class="text-body-secondary">Large sizes</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-21 | name: Large sizes | src: ref/src/site/src/content/docs/components/dropdowns.mdx:239-263 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Botão grande
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg btn-secondary">Botão dividido grande</button>
+            <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-21 -->
+        </div>
+      </section>
+
+      <!-- NAVX-22 -->
+      <section id="navx-22" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-22</span>
+          <small class="text-body-secondary">Small sizes</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-22 | name: Small sizes | src: ref/src/site/src/content/docs/components/dropdowns.mdx:288-312 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Botão pequeno
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-secondary">Botão dividido pequeno</button>
+            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-22 -->
+        </div>
+      </section>
+
+      <!-- NAVX-23 -->
+      <section id="navx-23" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-23</span>
+          <small class="text-body-secondary">Centered dropdown</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-23 | name: Centered dropdown | src: ref/src/site/src/content/docs/components/dropdowns.mdx:392-401 | ux: NN/g Navigation -->
+          <div class="dropdown-center">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu suspenso centralizado
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Segunda ação</a></li>
+              <li><a class="dropdown-item" href="#">Terceira ação</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-23 -->
+        </div>
+      </section>
+
+      <!-- NAVX-24 -->
+      <section id="navx-24" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-24</span>
+          <small class="text-body-secondary">Dropup</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-24 | name: Dropup | src: ref/src/site/src/content/docs/components/dropdowns.mdx:407-431 | ux: NN/g Navigation -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para cima
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondary">Dividido para cima</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-24 -->
+        </div>
+      </section>
+
+      <!-- NAVX-25 -->
+      <section id="navx-25" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-25</span>
+          <small class="text-body-secondary">Centered dropup</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-25 | name: Centered dropup | src: ref/src/site/src/content/docs/components/dropdowns.mdx:462-471 | ux: NN/g Navigation -->
+          <div class="dropup-center dropup">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso centralizado para cima
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Segunda ação</a></li>
+              <li><a class="dropdown-item" href="#">Terceira ação</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-25 -->
+        </div>
+      </section>
+
+      <!-- NAVX-26 -->
+      <section id="navx-26" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-26</span>
+          <small class="text-body-secondary">Dropend</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-26 | name: Dropend | src: ref/src/site/src/content/docs/components/dropdowns.mdx:477-501 | ux: NN/g Navigation -->
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para a direita
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-secondary">Dividido para a direita</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso para a direita</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-26 -->
+        </div>
+      </section>
+
+      <!-- NAVX-27 -->
+      <section id="navx-27" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-27</span>
+          <small class="text-body-secondary">Dropstart</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-27 | name: Dropstart | src: ref/src/site/src/content/docs/components/dropdowns.mdx:532-556 | ux: NN/g Navigation -->
+          <div class="btn-group dropstart">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para a esquerda
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+          </div>
+          <div class="btn-group dropstart">
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Alternar menu suspenso para a esquerda</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ação</a></li>
+              <li><a class="dropdown-item" href="#">Outra ação</a></li>
+              <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Link separado</a></li>
+            </ul>
+            <button type="button" class="btn btn-secondary">Dividido para a esquerda</button>
+          </div>
+          <!-- block:end NAVX-27 -->
+        </div>
+      </section>
+
+      <!-- NAVX-28 -->
+      <section id="navx-28" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-28</span>
+          <small class="text-body-secondary">Button items</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-28 | name: Button items | src: ref/src/site/src/content/docs/components/dropdowns.mdx:587-596 | ux: NN/g Navigation -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu suspenso
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">Ação</button></li>
+              <li><button class="dropdown-item" type="button">Outra ação</button></li>
+              <li><button class="dropdown-item" type="button">Algo mais aqui</button></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-28 -->
+        </div>
+      </section>
+
+      <!-- NAVX-29 -->
+      <section id="navx-29" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-29</span>
+          <small class="text-body-secondary">Item text</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-29 | name: Item text | src: ref/src/site/src/content/docs/components/dropdowns.mdx:600-605 | ux: NN/g Navigation -->
+          <ul class="dropdown-menu d-block position-static">
+            <li><span class="dropdown-item-text">Texto do item de menu</span></li>
+            <li><a class="dropdown-item" href="#">Ação</a></li>
+            <li><a class="dropdown-item" href="#">Outra ação</a></li>
+            <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+          </ul>
+          <!-- block:end NAVX-29 -->
+        </div>
+      </section>
+
+      <!-- NAVX-30 -->
+      <section id="navx-30" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-30</span>
+          <small class="text-body-secondary">Active item</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-30 | name: Active item | src: ref/src/site/src/content/docs/components/dropdowns.mdx:611-615 | ux: NN/g Navigation -->
+          <ul class="dropdown-menu d-block position-static">
+            <li><a class="dropdown-item" href="#">Link comum</a></li>
+            <li><a class="dropdown-item active" href="#" aria-current="true">Link ativo</a></li>
+            <li><a class="dropdown-item" href="#">Outro link</a></li>
+          </ul>
+          <!-- block:end NAVX-30 -->
+        </div>
+      </section>
+
+      <!-- NAVX-31 -->
+      <section id="navx-31" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-31</span>
+          <small class="text-body-secondary">Disabled item</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-31 | name: Disabled item | src: ref/src/site/src/content/docs/components/dropdowns.mdx:621-625 | ux: NN/g Navigation -->
+          <ul class="dropdown-menu d-block position-static">
+            <li><a class="dropdown-item" href="#">Link comum</a></li>
+            <li><a class="dropdown-item disabled" aria-disabled="true">Link desativado</a></li>
+            <li><a class="dropdown-item" href="#">Outro link</a></li>
+          </ul>
+          <!-- block:end NAVX-31 -->
+        </div>
+      </section>
+
+      <!-- NAVX-32 -->
+      <section id="navx-32" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-32</span>
+          <small class="text-body-secondary">Right-aligned menu</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-32 | name: Right-aligned menu | src: ref/src/site/src/content/docs/components/dropdowns.mdx:637-646 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Exemplo de menu alinhado à direita
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item" type="button">Ação</button></li>
+              <li><button class="dropdown-item" type="button">Outra ação</button></li>
+              <li><button class="dropdown-item" type="button">Algo mais aqui</button></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-32 -->
+        </div>
+      </section>
+
+      <!-- NAVX-33 -->
+      <section id="navx-33" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-33</span>
+          <small class="text-body-secondary">Right at lg, left below</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-33 | name: Right at lg, left below | src: ref/src/site/src/content/docs/components/dropdowns.mdx:654-663 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Alinhado à esquerda, à direita em telas grandes
+            </button>
+            <ul class="dropdown-menu dropdown-menu-lg-end">
+              <li><button class="dropdown-item" type="button">Ação</button></li>
+              <li><button class="dropdown-item" type="button">Outra ação</button></li>
+              <li><button class="dropdown-item" type="button">Algo mais aqui</button></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-33 -->
+        </div>
+      </section>
+
+      <!-- NAVX-34 -->
+      <section id="navx-34" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-34</span>
+          <small class="text-body-secondary">Left at lg, right below</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-34 | name: Left at lg, right below | src: ref/src/site/src/content/docs/components/dropdowns.mdx:667-676 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Alinhado à direita, à esquerda em telas grandes
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+              <li><button class="dropdown-item" type="button">Ação</button></li>
+              <li><button class="dropdown-item" type="button">Outra ação</button></li>
+              <li><button class="dropdown-item" type="button">Algo mais aqui</button></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-34 -->
+        </div>
+      </section>
+
+      <!-- NAVX-35 -->
+      <section id="navx-35" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-35</span>
+          <small class="text-body-secondary">Placement and alignment</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-35 | name: Placement and alignment | src: ref/src/site/src/content/docs/components/dropdowns.mdx:684-759 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu suspenso
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu alinhado à direita
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Esquerda, direita em lg
+            </button>
+            <ul class="dropdown-menu dropdown-menu-lg-end">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Direita, esquerda em lg
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropstart">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para a esquerda
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para a direita
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Suspenso para cima
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-35 -->
+        </div>
+      </section>
+
+      <!-- NAVX-36 -->
+      <section id="navx-36" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-36</span>
+          <small class="text-body-secondary">Header</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-36 | name: Header | src: ref/src/site/src/content/docs/components/dropdowns.mdx:767-771 | ux: NN/g Navigation -->
+          <ul class="dropdown-menu d-block position-static">
+            <li><h6 class="dropdown-header">Cabeçalho do menu</h6></li>
+            <li><a class="dropdown-item" href="#">Ação</a></li>
+            <li><a class="dropdown-item" href="#">Outra ação</a></li>
+          </ul>
+          <!-- block:end NAVX-36 -->
+        </div>
+      </section>
+
+      <!-- NAVX-37 -->
+      <section id="navx-37" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-37</span>
+          <small class="text-body-secondary">Divider</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-37 | name: Divider | src: ref/src/site/src/content/docs/components/dropdowns.mdx:777-783 | ux: NN/g Navigation -->
+          <ul class="dropdown-menu d-block position-static">
+            <li><a class="dropdown-item" href="#">Ação</a></li>
+            <li><a class="dropdown-item" href="#">Outra ação</a></li>
+            <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Link separado</a></li>
+          </ul>
+          <!-- block:end NAVX-37 -->
+        </div>
+      </section>
+
+      <!-- NAVX-38 -->
+      <section id="navx-38" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-38</span>
+          <small class="text-body-secondary">Text content</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-38 | name: Text content | src: ref/src/site/src/content/docs/components/dropdowns.mdx:789-796 | ux: NN/g Navigation -->
+          <div class="dropdown-menu p-4 text-body-secondary d-block position-static" style="max-width: 200px;">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </p>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </div>
+          <!-- block:end NAVX-38 -->
+        </div>
+      </section>
+
+      <!-- NAVX-39 -->
+      <section id="navx-39" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-39</span>
+          <small class="text-body-secondary">Form in menu</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-39 | name: Form in menu | src: ref/src/site/src/content/docs/components/dropdowns.mdx:802-825 | ux: NN/g Navigation -->
+          <div class="dropdown-menu d-block position-static">
+            <form class="px-4 py-3">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail1" class="form-label">Endereço de e-mail</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                  <label class="form-check-label" for="dropdownCheck">
+                    Lembrar de mim
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Novo por aqui? Cadastre-se</a>
+            <a class="dropdown-item" href="#">Esqueceu a senha?</a>
+          </div>
+          <!-- block:end NAVX-39 -->
+        </div>
+      </section>
+
+      <!-- NAVX-40 -->
+      <section id="navx-40" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-40</span>
+          <small class="text-body-secondary">Form dropdown</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-40 | name: Form dropdown | src: ref/src/site/src/content/docs/components/dropdowns.mdx:827-850 | ux: NN/g Navigation -->
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+              Formulário suspenso
+            </button>
+            <form class="dropdown-menu p-4">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail2" class="form-label">Endereço de e-mail</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword2" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Senha">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                  <label class="form-check-label" for="dropdownCheck2">
+                    Lembrar de mim
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+          </div>
+          <!-- block:end NAVX-40 -->
+        </div>
+      </section>
+
+      <!-- NAVX-41 -->
+      <section id="navx-41" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-41</span>
+          <small class="text-body-secondary">Offset and reference</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-41 | name: Offset and reference | src: ref/src/site/src/content/docs/components/dropdowns.mdx:856-880 | ux: NN/g Navigation -->
+          <div class="d-flex">
+            <div class="dropdown me-1">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                Deslocamento
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Outra ação</a></li>
+                <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary">Referência</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                <span class="visually-hidden">Alternar menu suspenso</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Outra ação</a></li>
+                <li><a class="dropdown-item" href="#">Algo mais aqui</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Link separado</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- block:end NAVX-41 -->
+        </div>
+      </section>
+
+      <!-- NAVX-42 -->
+      <section id="navx-42" class="mb-5 card">
+        <div class="d-flex align-items-center gap-2 card-header">
+          <span class="badge text-bg-secondary">NAVX-42</span>
+          <small class="text-body-secondary">Auto-close</small>
+        </div>
+        <div class="card-body">
+          <!-- block:start NAVX-42 | name: Auto-close | src: ref/src/site/src/content/docs/components/dropdowns.mdx:886-928 | ux: NN/g Navigation -->
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              Menu suspenso padrão
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+              Clicável por dentro
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              Clicável por fora
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+              Fechamento manual
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+              <li><a class="dropdown-item" href="#">Item de menu</a></li>
+            </ul>
+          </div>
+          <!-- block:end NAVX-42 -->
         </div>
       </section>
     </main>
